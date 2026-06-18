@@ -4,7 +4,10 @@ public class HeapStak {
         changeVal(c);
         System.out.println(c.getNum());
 
-
+        int a = 10;
+        int b = a;
+        b = 20;
+        System.out.println(a + " " + b);
 
     }
     public static void changeVal(Change c){
